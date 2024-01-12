@@ -1,0 +1,37 @@
+body{
+    margin: 0pt;
+    padding: 0pt;
+}
+
+#inputContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner{
+    width: 100vw;
+    height: 50pt;
+    background-color: rgb(56, 99, 239);
+    display: flex;
+    justify-content: flex-end;
+}
+
+button{
+    display: block;
+    width: 40pt;
+    height: 40pt;
+    border-radius: 10rem;
+    margin: 5pt;
+}
+
+input{
+    height: 30pt;
+    margin-top: 10pt;
+    width: 80%;
+    border-radius: 10pt;
+    border: solid rgb(61, 61, 114) 1pt;
+    padding-left: 5pt;
+    font-size: medium;
+}
