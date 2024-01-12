@@ -56,3 +56,7 @@ function saveList(){
 function saveTime(){
     localStorage.setItem("timer", timeValue.value)
 }
+
+function play(){
+    window.location.href="player.html"
+}
