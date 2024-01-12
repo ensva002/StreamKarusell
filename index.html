@@ -8,10 +8,15 @@
 </head>
 <body>
     <div class="banner">
-        <button class="play" onclick="saveList()">Save</button>
+        <h1>Videokarusell</h1>
+        <div class="timerCont">
+            <input type="number" id="timeInn" placeholder="Set time in seconds" value="10" onblur="saveTime()">
+            <b>s</b>
+        </div>
         <button class="play">Play</button>
     </div>
-    <div id="inputContainer"><input type="url" oninput="addNewField(this)" onblur="removeField(this)"></div>
+    <div id="inputContainer">
+    </div>
 
     <script src="script.js"></script>
 </body>
