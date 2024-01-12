@@ -22,19 +22,5 @@ function removeField(input){
     }
 }
 
-function saveToDB(){
-    fetch("/save",{
-        method: "POST",
-        headers:{
-            "Content-Type": "application/json",
-        },
-        body: JSON.stringify({inn}),
-    })
-    .then(response => response.json())
-    .then(data => {
-        console.log("Saved", data)
-    })
-    .catch(error => {
-        console.error("Saving failed!", error)
-    })
+function saveList(){
 }
